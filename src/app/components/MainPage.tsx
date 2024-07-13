@@ -40,7 +40,7 @@ export default function MainPage() {
                 <motion.img initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 1,delay: 0.5}} className='bg type-b' src='./MG.png' alt='' />
                 <motion.img initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 1,delay: 0.75 }} className='bg type-c' src='./VG.png' alt='' />
                 <Header />
-                <Container className='d-flex fw-bold flex-column justify-content-center align-items-start  h-100' style={{zIndex: 99}}>
+                <Container className='d-flex fw-bold flex-column justify-content-center align-items-start  h-100' style={{zIndex: 999,position: 'relative'}}>
                     <motion.figcaption {...AnimationVariants(0.7, 'imageright')} className=" blockquote-footer blockquote-footer_updated text-uppercase color-1 ">
                         A Hiking guide
                     </motion.figcaption>
